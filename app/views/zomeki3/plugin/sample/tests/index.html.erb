@@ -1,0 +1,14 @@
+<table class="index">
+  <tr>
+    <th>ユーザーID</th>
+    <th>氏名</th>
+  </tr>
+  <%- @items.each do |item| -%>
+  <tr class="<%= cycle '', 'cycle' %>">
+    <td><%= item.account %></td>
+    <td><%= item.name %></td>
+  </tr>
+  <%- end -%>
+</table>
+
+<%= will_paginate @items %>
