@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount Zomeki3::Plugin::Sample::Engine => "/zomeki3-plugin-sample"
+  mount Zomekip::Sample::Engine => "/zomekip_sample"
 end

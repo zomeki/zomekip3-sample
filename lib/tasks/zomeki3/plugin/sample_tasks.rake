@@ -1,4 +1,8 @@
-# desc "Explaining what the task does"
-# task :zomeki3_plugin_sample do
-#   # Task goes here
-# end
+namespace :zomekip do
+  namespace :sample do
+    desc "Print hello"
+    task :hello do
+      puts "hello"
+    end
+  end
+end

@@ -8,4 +8,8 @@ class Sys::User < ApplicationRecord
   def has_auth?(auth_no)
     true
   end
+
+  def sites
+    []
+  end
 end

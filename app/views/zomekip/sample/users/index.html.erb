@@ -1,14 +1,20 @@
+<%= render 'search' %>
+
+<%= page_entries_info @items %>
+
 <table class="index">
   <tr>
     <th>ユーザーID</th>
     <th>氏名</th>
+    <th>サイト</th>
   </tr>
   <%- @items.each do |item| -%>
   <tr class="<%= cycle '', 'cycle' %>">
     <td><%= item.account %></td>
     <td><%= item.name %></td>
+    <td><%= item.sites.map(&:name).join(', ') %></td>
   </tr>
   <%- end -%>
 </table>
 
-<%= will_paginate @items %>
+<%= paginate @items %>

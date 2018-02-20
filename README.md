@@ -1,28 +1,15 @@
-# Zomeki3::Plugin::Sample
-Short description and motivation.
+# Zomekip::Sample
 
-## Usage
-How to use my plugin.
+ZOMEKIのサンプルプラグインです。全サイトのユーザー一覧を表示します。
 
-## Installation
-Add this line to your application's Gemfile:
+## 想定環境
 
-```ruby
-gem 'zomeki3-plugin-sample'
-```
+* ZOMEKI3 build-70+
 
-And then execute:
-```bash
-$ bundle
-```
+## インストール
 
-Or install it yourself as:
-```bash
-$ gem install zomeki3-plugin-sample
-```
-
-## Contributing
-Contribution directions go here.
+ZOMEKIの管理画面からインストールします。
 
 ## License
+
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
