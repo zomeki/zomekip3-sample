@@ -1,4 +1,4 @@
-# Zomekip::Sample
+# Zplugin::Sample
 
 ZOMEKIのサンプルプラグインです。全サイトのユーザー一覧を表示します。
 

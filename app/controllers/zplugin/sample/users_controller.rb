@@ -1,4 +1,4 @@
-class Zomekip::Sample::UsersController < Cms::Controller::Admin::Base
+class Zplugin::Sample::UsersController < Cms::Controller::Admin::Base
   layout  'admin/cms'
 
   def pre_dispatch

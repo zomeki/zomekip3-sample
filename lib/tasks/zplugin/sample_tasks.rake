@@ -1,4 +1,4 @@
-namespace :zomekip do
+namespace :zplugin do
   namespace :sample do
     desc "Print hello"
     task :hello do

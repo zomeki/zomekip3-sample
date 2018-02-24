@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    zomekip3-sample (1.0.0)
+    zplugin3-sample (1.0.0)
       pg
       rails
       will_paginate
@@ -118,7 +118,7 @@ DEPENDENCIES
   pg (~> 0.18)
   rails (~> 5.0.0.1)
   will_paginate
-  zomekip3-sample!
+  zplugin3-sample!
 
 BUNDLED WITH
    1.16.0
